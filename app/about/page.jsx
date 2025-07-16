@@ -3,9 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const team = [
-  { name: "AqX Play", role: "Founder & CEO" },
-  { name: "Jane Doe", role: "Lead Designer" },
-  { name: "John Smith", role: "Full Stack Developer" },
+  { name: "Huzaifa", role: "Founder & Full Stack Developer" },
+  { name: "Abdullah", role: "Co Founder & Application Developer" },
+  { name: "Ahmed", role: "Head of Operations" },
+  { name: "Ahmed", role: "Head of Marketing" },
+
 ];
 
 const About = () => (
