@@ -1,5 +1,6 @@
 import { Funnel_Display, Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
+import NavBar from "./components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${MontserratDisplay.variable} ${funnelDisplay.variable} antialiased`}
       >
+        <NavBar />
         {children}
       </body>
     </html>
