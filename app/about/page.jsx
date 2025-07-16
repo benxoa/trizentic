@@ -6,7 +6,7 @@ const team = [
   { name: "Huzaifa", role: "Founder & Full Stack Developer" },
   { name: "Abdullah", role: "Co Founder & Application Developer" },
   { name: "Ahmed", role: "Head of Operations" },
-  { name: "Ahmed", role: "Head of Marketing" },
+  { name: "Hadiyan", role: "Head of Marketing" },
 
 ];
 
