@@ -22,7 +22,7 @@ const projects = [
   {
     title: "Portfolio Website",
     desc: "Personal portfolio for a creative professional, built for impact.",
-    img: "/vercel.svg",
+    img: "/file.svg",
   },
   {
     title: "UI/UX Redesign",

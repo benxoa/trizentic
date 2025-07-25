@@ -35,7 +35,7 @@ const ContactUs = () => {
         className="max-w-xl w-full py-12 flex flex-col gap-6  rounded-3xl  p-8 mt-10"
         onSubmit={handleSubmit}
       >
-        <h2 className="text-3xl sm:text-4xl font-bold font-funnel mb-2 text-center">Contact Us</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold font-funnel mb-2 text-center">Get Quote</h2>
         <p className="text-base sm:text-lg font-mont text-center mb-4">We'd love to hear from you! Fill out the form below and we'll get back to you soon.</p>
         <input
           type="text"

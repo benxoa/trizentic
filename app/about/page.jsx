@@ -1,13 +1,13 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
+import { FaUserTie, FaCode, FaBullhorn, FaCogs } from "react-icons/fa";
 
 const team = [
-  { name: "Huzaifa", role: "Founder & Full Stack Developer" },
-  { name: "Abdullah", role: "Co Founder & Application Developer" },
-  { name: "Ahmed", role: "Head of Operations" },
-  { name: "Hadiyan", role: "Head of Marketing" },
-
+  { name: "Huzaifa", role: "Founder & Full Stack Developer", icon: <FaUserTie size={32} className="mx-auto mb-2 text-foreground" /> },
+  { name: "Abdullah", role: "Co Founder & Application Developer", icon: <FaCode size={32} className="mx-auto mb-2 text-foreground" /> },
+  { name: "Ahmed", role: "Head of Operations", icon: <FaCogs size={32} className="mx-auto mb-2 text-foreground" /> },
+  { name: "Hadiyan", role: "Head of Marketing", icon: <FaBullhorn size={32} className="mx-auto mb-2 text-foreground" /> },
 ];
 
 const About = () => (
@@ -52,6 +52,7 @@ const About = () => (
       <div className="flex flex-col sm:flex-row justify-center gap-6">
         {team.map((member) => (
           <div key={member.name} className="bg-foreground/10 rounded-2xl p-6 flex-1 text-center">
+            {member.icon}
             <div className="text-2xl font-funnel font-bold mb-2">{member.name}</div>
             <div className="text-base font-mont text-foreground/80">{member.role}</div>
           </div>
