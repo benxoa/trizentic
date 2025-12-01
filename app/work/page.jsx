@@ -12,20 +12,21 @@ const projects = [
     icon: <FaShoppingCart size={64} className="text-foreground mb-4" />,
     category: "Marketing",
     href: "#",
+    link: "https://www.instagram.com/p/DQykQUeiHkb/"
   },
   {
-    title: "Zulo Ai",
+    title: "Zuneo Ai",
     desc: "An iOS app that transforms your videos into AI-powered VFX creations",
     icon: <FaRocket size={64} className="text-foreground mb-4" />,
     category: "Development",
-    href: "#",
+    link: "https://apps.apple.com/us/app/zunoe-ai-vfx-ai-videos/id6751473017",
   },
   {
-    title: "DeepSuper",
+    title: "DeepSuper Ai",
     desc: "A iOS app that offers multiple features and tons of chatbots.",
     icon: <FaMobile size={64} className="text-foreground mb-4" />,
     category: "Development",
-    href: "#",
+    link: "https://apps.apple.com/us/app/deepsuper-ai-ask-chatbot-ai/id6741714064",
   },
 
 ];
@@ -77,6 +78,8 @@ const Work = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 w-full max-w-5xl">
         {filteredProjects.map((project, i) => {
           const Card = (
+            <Link href={project.link}>
+
             <motion.div
               className="bg-foreground/10 rounded-3xl p-6 shadow-lg flex flex-col items-center text-center border border-foreground/10 hover:scale-105 transition-transform h-full"
               initial={{ opacity: 0, y: 40 }}
@@ -90,7 +93,10 @@ const Work = () => {
               <div className="flex items-center gap-2">
                 <span className="text-xs font-funnel bg-background text-foreground border border-foreground/20 rounded-full px-3 py-1">{project.category}</span>
               </div>
+
             </motion.div>
+                                      </Link>
+
           );
 
           return project.href ? (
