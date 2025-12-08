@@ -3,7 +3,7 @@ import React, { useState, useMemo } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { FaShoppingCart, FaRocket, FaMobile, FaLaptop, FaPalette } from "react-icons/fa";
+import { FaShoppingCart, FaRocket, FaMobile, FaLaptop, FaPalette, FaBook } from "react-icons/fa";
 
 const projects = [
   {
@@ -28,6 +28,14 @@ const projects = [
     category: "Development",
     link: "https://apps.apple.com/us/app/deepsuper-ai-ask-chatbot-ai/id6741714064",
   },
+{
+    title: "Ametz",
+    desc: "Strategic Project Management operationally driven,  by excellence and digital visibility for Ametz Community Care. Skilled in optimising service delivery systems, enhancing participant pathways, and maintaining high-standard NDIS compliance. Expertise spans workflow coordination, data-driven planning, and multi-channel marketing execution. Focus remains on delivering seamless experiences, strengthening community trust, and elevating the organisation’s impact across all platforms.",
+    icon: <FaBook size={64} className="text-foreground mb-4" />,
+    category: "Branding",
+    link: "https://ametz.com.au/",
+  },
+  
 
 ];
 

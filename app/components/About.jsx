@@ -11,7 +11,7 @@ const About = () => {
         </h1>
 
         {/* Paragraph */}
-        <p className="text-base sm:text-lg md:text-xl font-mont leading-relaxed mb-8 text-justify">
+        <p className="text-base sm:text-lg md:text-xl text-start font-mont leading-relaxed mb-8 text-justify">
           Welcome to <span className="font-semibold text-background">Trizentic</span> – your all-in-one digital
           solutions partner. We help businesses make their mark online through a
           full spectrum of services including{" "}
