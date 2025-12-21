@@ -2,12 +2,7 @@ import Link from "next/link";
 import React from "react";
 
 const About = () => {
-        const smtpPass = process.env.SMTP_PASS;
-
-  useEffect(() => {
-    console.log("hey")
-
-  }, [])
+ 
   
   return (
     <section className="flex items-center justify-center min-h-[70vh] bg-[#0e2a6c] text-white px-4 md:px-0">
